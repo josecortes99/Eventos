@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestión de Eventos</title>
+      <link rel="icon" href="./img/viveya_icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./escritorio.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <button onclick="window.location.href='escritorio.html'">Escritorio</button>
+      <button onclick="window.location.href='suscripcion.html'">Suscripciones</button>
+      <button class="active" onclick="window.location.href='gestion_eventos.html'">Gestión de eventos</button>
+      <button onclick="window.location.href='contacto.html'">Contacto</button>
+      <button class="exit" onclick="window.location.href='eventos.html'">Salir</button>
+    </aside>
+
+    <main class="main">
+      <h2>Bienvenido: Administrador Antony</h2>
+      <div class="search">
+        <label>Listado de eventos</label>
+        <input type="text" placeholder="Buscar por nombre" id="busqueda">
+      </div>
+      <section id="eventos"></section>
+    </main>
+  </div>
+  <script src="./gestion_eventos.js"></script>
+</body>
+</html>

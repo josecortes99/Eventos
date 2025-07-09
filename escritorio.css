@@ -1,0 +1,207 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY Y CONTENEDOR */
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR OSCURA */
+.sidebar {
+  background-color: #1c1c1c;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-right: 1px solid #333;
+}
+
+.sidebar button {
+  margin: 5px 0;
+  padding: 10px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar button:hover {
+  background-color: #5cbf2a;
+  transform: scale(1.03);
+  color: black;
+}
+
+.sidebar .active {
+  background-color: #5cbf2a;
+  color: black;
+}
+
+.sidebar .exit {
+  margin-top: auto;
+}
+
+/* CONTENIDO PRINCIPAL */
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+/* BARRA DE BÚSQUEDA */
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.search input {
+  padding: 6px;
+  width: 300px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 4px;
+}
+
+/* EVENTOS */
+.evento {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.evento .imagen {
+  width: 100px;
+  height: 100px;
+  background-color: #ddd;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.evento .info {
+  flex-grow: 1;
+}
+
+/* ESTADOS */
+.estado {
+  text-align: right;
+  color: green;
+  font-weight: bold;
+}
+
+.estado.inactivo {
+  color: red;
+}
+
+/* IMÁGENES */
+.img-evento {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.img-placeholder {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+/* BOTONES */
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.eliminar {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button.eliminar:hover {
+  background-color: #c0392b;
+  transform: scale(1.03);
+}
+
+button.cambiar-estado {
+  background-color: #3498db;
+  color: white;
+}
+
+button.cambiar-estado:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+}
+
+/* DASHBOARD CARDS */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.dashboard-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+.dashboard-card h3 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.dashboard-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+/* COLORES PERSONALIZADOS DE CARDS */
+.dashboard-card.green { background-color: #e0f7e9; color: black; }
+.dashboard-card.red { background-color: #fdecea; color: #c62828; }
+.dashboard-card.yellow { background-color: #fff8e1; color: #f9a825; }
+.dashboard-card.blue { background-color: #e3f2fd; color: #1565c0; }
+.dashboard-card.gray { background-color: #f5f5f5; color: #424242; }

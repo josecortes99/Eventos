@@ -1,0 +1,124 @@
+{
+  "eventos": [
+    {
+      "id": "1",
+      "titulo": "Ferias inmobiliarias",
+      "descripcion": "Ferias local donde se presentan proyectos, se ofrecen descuentos y se conectan con compradores potenciales.",
+      "estado": "inactivo",
+      "fecha": "2025-07-15",
+      "imagen": "./img/feria2022.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Open House o visitas guiadas",
+      "descripcion": "Invitar a clientes a recorrer apartamentos modelo, conocer acabados y visualizar el estilo de vida que ofrece el proyecto.",
+      "estado": "inactivo",
+      "fecha": "2025-06-10",
+      "imagen": "./img/Open_House.webp"
+    },
+    {
+      "id": "3",
+      "titulo": "Charlas con expertos",
+      "descripcion": "Invitar arquitectos, diseñadores o asesores financieros para hablar sobre tendencias, inversión en vivienda o decoración.",
+      "estado": "activo",
+      "fecha": "2025-06-10",
+      "imagen": "./img/charla.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Recorridos virtuales 360°",
+      "descripcion": "Mostrar apartamentos modelo mediante experiencias inmersivas que se pueden ver desde cualquier dispositivo.",
+      "estado": "activo",
+      "fecha": "2025-06-10",
+      "imagen": "./img/360.webp"
+    },
+    {
+      "id": "5",
+      "titulo": "Webinars informativos",
+      "descripcion": "Sesiones en línea sobre cómo comprar vivienda, subsidios disponibles, créditos hipotecarios o inversión desde el exterior.",
+      "estado": "activo",
+      "fecha": "2025-06-10",
+      "imagen": "./img/webiners.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Activaciones en centros comerciales",
+      "descripcion": "Stands interactivos donde se muestran maquetas, renders y se captan leads.",
+      "estado": "activo",
+      "fecha": "2025-06-10",
+      "imagen": "./img/centro.webp"
+    }
+  ],
+  "suscripciones": [
+    {
+      "id": "677e",
+      "correo": "antony@riwi.io"
+    },
+    {
+      "id": "3d8b",
+      "correo": "j@g.com"
+    },
+    {
+      "id": "ce94",
+      "correo": "monicapatri16@hotmail.com"
+    }
+  ],
+  "contactos": [
+    {
+      "id": "1",
+      "nombre": "Antony martinez",
+      "correo": "antony@gmail.com",
+      "fecha": "2024-06-20",
+      "mensaje": "Este es un mensaje de prueba para contacto 1."
+    },
+    {
+      "id": "2",
+      "nombre": "Maria Lopez",
+      "correo": "maria@gmail.com",
+      "fecha": "2024-06-21",
+      "mensaje": "Hola, tengo dudas sobre el evento."
+    },
+    {
+      "id": "3",
+      "nombre": "Pedro Ramírez",
+      "correo": "pedro@gmail.com",
+      "fecha": "2024-06-25",
+      "mensaje": "Quiero más información."
+    },
+    {
+      "id": "c363",
+      "nombre": "antony",
+      "correo": "antony@riwi.io",
+      "fecha": "01-02-2026",
+      "mensaje": "quiero mas informacion de los eventos "
+    },
+    {
+      "id": "eacb",
+      "nombre": "antony",
+      "correo": "antony@riwi.io",
+      "fecha": "01-02-2026",
+      "mensaje": "sssssssssss"
+    },
+    {
+      "id": "e0f7",
+      "nombre": "antony",
+      "correo": "antony@riwi.io",
+      "fecha": "01-02-2026",
+      "mensaje": "hjjjjjjjjjjjjjjjjjjjjjj"
+    },
+    {
+      "id": "f4e1",
+      "nombre": "antony",
+      "correo": "antony@riwi.io",
+      "fecha": "01-02-2026",
+      "mensaje": "jose"
+    },
+    {
+      "id": "22d5",
+      "nombre": "antony",
+      "correo": "antony@riwi.io",
+      "fecha": "01-02-2026",
+      "mensaje": "jose"
+    }
+  ]
+}
